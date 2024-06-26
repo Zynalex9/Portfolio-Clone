@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "GM";
+  src: url("./assets/Gilroy-Medium.e7e7c091.ttf");
+}
+@font-face {
+  font-family: "GSB";
+  src: url("./assets/Gilroy-SemiBold.f3ed44cd.ttf");
+}
+@font-face {
+  font-family: "Maz";
+  src: url("./assets/Mazius-Extraitalic.121a71a7.otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: GM;
+}
+#main {
+  position: relative;
+}
+.parent {
+  display: block;
+  overflow: hidden;
+}
+.parent .child {
+  display: block;
+}
+#loader {
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+position: absolute;
+}
+#loader h5 {
+  font-family: GM;
+  font-size: 0.9vw;
+  font-weight: 400;
+  padding-top: 20px;
+}
+#loader h4 {
+  font-family: GM;
+  font-size: 0.9vw;
+  font-weight: 400;
+}
+#loader h1 {
+  font-weight: 500;
+  font-size: 8vw;
+  text-align: center;
+}
+#loader .child span {
+  display: inline-block;
+}
+#loader .child span:nth-of-type(2) {
+  display: inline-block;
+  color: #14cf93;
+  font-family: Maz;
+}
+
+/* Hero-section */
+nav {
+  position: static;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  padding: 0 2vw;
+  text-transform: uppercase;
+}
+
+nav a {
+  color: #000;
+  font-family: GM;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  position: relative;
+}
+
+nav a .line {
+  position: absolute;
+  bottom: 0;
+  height: 1px;
+  background-color: #000;
+  width: 0; /* Initial width set to 0 */
+  transition: width cubic-bezier(0.19, 1, 0.22, 1) 0.3s; /* Transition only width */
+}
+
+#line1 {
+  left: 0;
+}
+
+#line2 {
+  right: 0;
+}
+
+nav a:hover .line {
+  width: 100%; /* Expand width to 100% on hover */
+}
+#hero-section {
+  height: 100vh;
+  width: 100%;
+  background-color: #FCFAF8;
+}
+#hero-section .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#hero-section .row.row1{
+    padding-top: 70px;
+}
+#hero-section .row h1 {
+  font-size: 12vw;
+  color: #383838;
+  line-height: 162px;
+}
+#hero-section .row h5 {
+  font-size: 12px;
+  line-height: 15px;
+  color: #b7b7b6;
+  font-weight: 400;
+}
+#hero-section .row2 img {
+  height: 7vw;
+}
+#hero-section svg {
+  width: 350px;
+}
+path, polyline{
+    stroke: #14CF93;
+}
