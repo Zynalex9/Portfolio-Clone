@@ -510,6 +510,7 @@ polyline {
 /* ***************Archives */
 .archives {
   padding-top: 10vw;
+  padding-bottom: 10vw;
   height: 110vh;
   width: 100%;
   background-color: #f2f2f2;
@@ -585,4 +586,114 @@ polyline {
 .archives .a-button:hover.a-button:before,
 .archives .a-button:hover.a-button:after {
   width: 50%;
+}
+#honors {
+  background-color: #fcfaf8;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+#honors::before {
+  content: "";
+  background-image: url(https://abhishekjha.me/rip.f6d7c4dd.svg);
+  position: absolute;
+  width: 100%;
+  top: -75px;
+  left: 0;
+  height: 150px;
+  background-size: cover;
+}
+#honors .honors-headings {
+  padding: 5vw 8vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#honors .honors-headings h1 {
+  font-size: 9vw;
+  opacity: 0.8;
+}
+#honors .honors-headings p {
+  font-size: 1.1vw;
+  opacity: 0.8;
+}
+#honors .o-ui-arrow {
+  margin-left: 6vw;
+  width: 5vw;
+}
+.o-ui-arrow path {
+  stroke: rgba(65, 65, 65, 0.3);
+}
+.awards-section {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+.awards-section .awards-img {
+  padding-left: 4vw;
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1vw;
+}
+.awards-section .awards-img h5 {
+  opacity: 0.5;
+  font-size: 0.9vw;
+}
+.awards-section .awards-img h3 {
+  opacity: 0.8;
+  font-size: 2vw;
+}
+.awards-section .awards-img p {
+  opacity: 0.5;
+  font-size: 0.9vw;
+}
+.awards-section .awards-img img {
+  height: 25vw;
+  border-radius: 1vw;
+}
+.awards-section .awards-ul {
+  padding-left: 5vw;
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height: 100vh;
+}
+.awards-section .awards-ul ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50vw;
+  border-top: 1px solid black;
+  padding: 2vw 4vw;
+}
+.awards-section .awards-ul ul li h4 {
+  font-size: 0.7vw;
+  opacity: 0.5;
+}
+.awards-section .awards-ul ul li h1 {
+  font-size: 2vw;
+  opacity: 0.8;
+}
+.awards-section .awards-ul ul li .endButton {
+  height: 3vw;
+  width: 3vw;
+  background-color: #414141;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;;
+  justify-content: center;
+  cursor: pointer;
+}
+.awards-section .awards-ul ul li .endButton  i{
+  font-size: 1.2vw;
+  color: #fff;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+.awards-section .awards-ul ul li .endButton:hover  i{
+  transform: rotate(-45deg);
 }
