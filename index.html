@@ -4,16 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zain Ali | Home</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
     <link rel="stylesheet" href="styles.css" />
     <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
-   
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
   </head>
+  <style></style>
   <body>
     <div id="main" data-scroll-container>
-      <!-- <div id="loader">
+      <div id="loader">
         <div class="top">
           <h5 class="reveal">Design Portfolio</h5>
           <h4 class="reveal">&copy; 2024</h4>
@@ -25,8 +29,8 @@
           <span>a</span>
         </h1>
         <h5 class="reveal" style="padding-bottom: 20px">Loading.....</h5>
-      </div> 
-       <div id="hero-section">
+      </div>
+      <div id="hero-section">
         <nav id="nav">
           <a href="#" class="reveal1"
             >Zain
@@ -227,7 +231,7 @@
               PLEASING INTERFACES FOR <br />THE MOBILE AND WEB.
             </h1>
           </div>
-          <div class="right-section">
+          <div class="right-section" data-scroll data-scroll-speed="1">
             <div class="img-container"></div>
             <div class="img-container"></div>
             <div class="img-container"></div>
@@ -264,7 +268,7 @@
             </h1>
             <div class="breaking-line"></div>
           </div>
-        </div> -->
+        </div>
         <div class="featured">
           <div class="featured-heading" id="fprojects1">
             <h1>Feat Wo<span class="maz">r</span>k</h1>
@@ -290,163 +294,207 @@
           </div>
           <div class="featured-projects">
             <div class="image-container" id="container-1">
-              <div class="hover-anim-section1">
-                <div class="first-row">
-                  <div class="circle"></div>
-                  <div class="button"><h1>Behance</h1></div>
-                </div>
-                <div class="second-row">
-                  <div class="top"><div class="smcircle"></div>
-                  <div class="smcircle"></div>
-                  <div class="smcircle"></div></div>
-                  <div class="bottom"></div>
-                </div>
+              <img
+                src="https://abhishekjha.me/aeizei.7edf201c.png"
+                alt=""
+                id="img1"
+                class="fimgs"
+                data-scroll
+                data-scroll-speed="-1"
+              />
+              <div class="buttons">
+                <button class="btn" id="first-btn-1">
+                  <h1>Ae<span class="maz">i</span>zei</h1>
+                </button>
+                <button class="btn" id="first-btn-2">
+                  <i class="ri-arrow-right-up-line"></i>
+                </button>
               </div>
-            <img src="https://abhishekjha.me/aeizei.7edf201c.png" alt="" id="img1" class="fimgs">
-            <div class="buttons">
-              <button class="btn" id="first-btn-1"><h1>Ae<span class="maz">i</span>zei</h1></button>
-              <button class="btn" id="first-btn-2"><i class="ri-arrow-right-up-line"></i></button>
-            </div>
             </div>
             <div class="image-container" id="container-2">
-              <div class="hover-anim-section1">
-                <div class="first-row">
-                  <div class="circle"></div>
-                  <div class="button"><h1>Behance</h1></div>
-                </div>
-                <div class="second-row">
-                  <div class="top"><div class="smcircle"></div>
-                  <div class="smcircle"></div>
-                  <div class="smcircle"></div></div>
-                  <div class="bottom"></div>
-                </div>
-              </div>
-              <img src="https://abhishekjha.me/display.835f9d62.png" alt="" id="img2" class="fimgs">
+              <img
+                src="https://abhishekjha.me/display.835f9d62.png"
+                alt=""
+                id="img2"
+                class="fimgs"
+                data-scroll
+                data-scroll-speed="-1"
+              />
               <div class="buttons">
-              <button class="btn" id="sec-btn-1"><h1>D<span class="maz">i</span>splay</h1></button>
-              <button class="btn" id="sec-btn-2"><i class="ri-arrow-right-up-line"></i></button>
-            </div>
+                <button class="btn" id="sec-btn-1">
+                  <h1>D<span class="maz">i</span>splay</h1>
+                </button>
+                <button class="btn" id="sec-btn-2">
+                  <i class="ri-arrow-right-up-line"></i>
+                </button>
               </div>
             </div>
-            <div class="featured-projects2" id="fprojects2">
-              
-              <div class="img-container2">
-                <div class="hover-anim-section2">
-                  <div class="first-row">
-                    <div class="circle"></div>
-                    <div class="button"><h1>Behance</h1></div>
-                  </div>
-                  <div class="second-row">
-                    <div class="top"><div class="smcircle"></div>
-                    <div class="smcircle"></div>
-                    <div class="smcircle"></div></div>
-                    <div class="bottom"></div>
-                  </div>
-                </div>
-                <img src="https://abhishekjha.me/quaive.6fc624fe.png" alt="" class="fimgs3">
-                <div class="buttons">
-                  <button class="btn" id="first-btn-1"><h1>Q<span class="maz">u</span>aive</h1></button>
-                  <button class="btn" id="first-btn-2"><i class="ri-arrow-right-up-line"></i></button>
-                </div></div>
-            </div>
-            
           </div>
-          <div class="archives">
-            <div class="achives-container">
-              <div class="images-side"></div>
-              <div class="links-side">
-                <h5>Archives</h5>
+          <div class="featured-projects2" id="fprojects2">
+            <div class="img-container2">
+              <img
+                src="https://abhishekjha.me/quaive.6fc624fe.png"
+                alt=""
+                class="fimgs3"
+                data-scroll
+                data-scroll-speed="-1"
+              />
+              <div class="buttons">
+                <button class="btn" id="first-btn-1">
+                  <h1>Q<span class="maz">u</span>aive</h1>
+                </button>
+                <button class="btn" id="first-btn-2">
+                  <i class="ri-arrow-right-up-line"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="archives">
+          <div class="achives-container">
+            <div class="images-side"></div>
+            <div class="links-side">
+              <h5>Archives</h5>
               <a href="#">North Of Zero</a>
               <a href="#">Pulse</a>
               <a href="#">PhotoFolio</a>
               <a href="#">Stray</a>
               <a href="#">ABUDZEO</a>
-              </div>
             </div>
-            
-              <button class="a-button"><h1>See P<span class="maz">l</span>aybook</h1></button>
-           
+          </div>
 
+          <button class="a-button">
+            <h1>See P<span class="maz">l</span>aybook</h1>
+          </button>
+        </div>
+        <div id="honors">
+          <div class="honors-headings">
+            <h1>Ho<span class="maz">n</span>ors</h1>
+            <p>
+              ALL OF <span class="maz">MY </span> PAST ACHIEVEMENTS, <br />
+              AWARDS AND RECOGNITION.
+            </p>
           </div>
-          <div id="honors">
-            <div class="honors-headings">
-              <h1>Ho<span class="maz">n</span>ors</h1>
-              <p>ALL OF <span class="maz">MY </span>  PAST ACHIEVEMENTS, <br>
-                AWARDS AND RECOGNITION.</p>
+          <svg
+            class="o-ui-arrow"
+            width="64"
+            height="64"
+            viewBox="0 0 64 64"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3.10162 3.10156L62.9999 62.9999"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+            <path
+              d="M63 1.00001L63 63L0.999989 63"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </svg>
+          <div class="awards-section">
+            <div class="awards-img">
+              <h5>FEATURED</h5>
+              <h3>Have a Interview Call</h3>
+              <img src="assets/my.jpg" alt="" />
+              <p>
+                My journey of becoming a visual designer and my views on
+                websites as a medium of expression.
+              </p>
             </div>
-            <svg class="o-ui-arrow" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M3.10162 3.10156L62.9999 62.9999" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M63 1.00001L63 63L0.999989 63" stroke-linecap="round" stroke-linejoin="round"></path> </svg>
-            <div class="awards-section">
-              <div class="awards-img">
-                <h5>FEATURED</h5>
-                <h3>Have a Interview Call</h3>
-                <img src="assets/my.jpg" alt="">
-                <p>My journey of becoming a visual designer and my views on websites as a medium of expression.</p>
-              </div>
-              <div class="awards-ul">
-                <ul>
-                  <li>
+            <div class="awards-ul">
+              <ul>
+                <li>
                   <div class="smHeading">
-                    <h4>FOR DISPLAY <br>
-                      2022</h4>
+                    <h4>
+                      FOR DISPLAY <br />
+                      2022
+                    </h4>
                   </div>
                   <div class="middle"><h1>Awwwards SOTD</h1></div>
-                  <div class="endButton"><i class="ri-arrow-right-line"></i></div>
+                  <div class="endButton">
+                    <i class="ri-arrow-right-line"></i>
+                  </div>
                 </li>
-                  <li>
+                <li>
                   <div class="smHeading">
-                    <h4>FOR DISPLAY <br>
-                      2022</h4>
+                    <h4>
+                      FOR DISPLAY <br />
+                      2022
+                    </h4>
                   </div>
                   <div class="middle"><h1>Awwwards SOTD</h1></div>
-                  <div class="endButton"><i class="ri-arrow-right-line"></i></div>
+                  <div class="endButton">
+                    <i class="ri-arrow-right-line"></i>
+                  </div>
                 </li>
-                  <li>
+                <li>
                   <div class="smHeading">
-                    <h4>FOR DISPLAY <br>
-                      2022</h4>
+                    <h4>
+                      FOR DISPLAY <br />
+                      2022
+                    </h4>
                   </div>
                   <div class="middle"><h1>Awwwards SOTD</h1></div>
-                  <div class="endButton"><i class="ri-arrow-right-line"></i></div>
+                  <div class="endButton">
+                    <i class="ri-arrow-right-line"></i>
+                  </div>
                 </li>
-                  <li>
+                <li>
                   <div class="smHeading">
-                    <h4>FOR DISPLAY <br>
-                      2022</h4>
+                    <h4>
+                      FOR DISPLAY <br />
+                      2022
+                    </h4>
                   </div>
                   <div class="middle"><h1>Awwwards SOTD</h1></div>
-                  <div class="endButton"><i class="ri-arrow-right-line"></i></div>
+                  <div class="endButton">
+                    <i class="ri-arrow-right-line"></i>
+                  </div>
                 </li>
-                  <li>
+                <li>
                   <div class="smHeading">
-                    <h4>FOR DISPLAY <br>
-                      2022</h4>
+                    <h4>
+                      FOR DISPLAY <br />
+                      2022
+                    </h4>
                   </div>
                   <div class="middle"><h1>Awwwards SOTD</h1></div>
-                  <div class="endButton"><i class="ri-arrow-right-line"></i></div>
+                  <div class="endButton">
+                    <i class="ri-arrow-right-line"></i>
+                  </div>
                 </li>
-                  <li>
+                <li>
                   <div class="smHeading">
-                    <h4>FOR DISPLAY <br>
-                      2022</h4>
+                    <h4>
+                      FOR DISPLAY <br />
+                      2022
+                    </h4>
                   </div>
                   <div class="middle"><h1>Awwwards SOTD</h1></div>
-                  <div class="endButton"><i class="ri-arrow-right-line"></i></div>
+                  <div class="endButton">
+                    <i class="ri-arrow-right-line"></i>
+                  </div>
                 </li>
-                  <li>
+                <li>
                   <div class="smHeading">
-                    <h4>FOR DISPLAY <br>
-                      2022</h4>
+                    <h4>
+                      FOR DISPLAY <br />
+                      2022
+                    </h4>
                   </div>
                   <div class="middle"><h1>Awwwards SOTD</h1></div>
-                  <div class="endButton"><i class="ri-arrow-right-line"></i></div>
+                  <div class="endButton">
+                    <i class="ri-arrow-right-line"></i>
+                  </div>
                 </li>
-                 
-                </ul>
-              </div>
+              </ul>
             </div>
-          </div>
           </div>
         </div>
+        <div class="footer"></div>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
@@ -456,7 +504,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-
     <script src="script.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const scroll = new LocomotiveScroll({
+          el: document.querySelector("#main"), // Replace with your container ID or class
+          smooth: true,
+          // Other options as needed
+        });
+      });
+    </script>
   </body>
 </html>

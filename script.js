@@ -1,5 +1,6 @@
+
 const reveal = document.querySelectorAll(".reveal");
-function valueSetters() {
+ function valueSetters() {
   gsap.set("#nav a", { y: "-100%", opacity: 0 });
   gsap.set("#hero-section .parent .child", { y: "100%", opacity: 0 });
   gsap.set("#hero-section .row h5", { y: "100%", opacity: 0 });
