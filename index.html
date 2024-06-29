@@ -231,7 +231,7 @@
               PLEASING INTERFACES FOR <br />THE MOBILE AND WEB.
             </h1>
           </div>
-          <div class="right-section" data-scroll data-scroll-speed="1">
+          <div class="right-section">
             <div class="img-container"></div>
             <div class="img-container"></div>
             <div class="img-container"></div>
@@ -294,6 +294,20 @@
           </div>
           <div class="featured-projects">
             <div class="image-container" id="container-1">
+              <div class="hover-anim-section1">
+                <div class="first-row">
+                  <div class="circle"></div>
+                  <div class="button"><h1>Behance</h1></div>
+                </div>
+                <div class="second-row">
+                  <div class="top">
+                    <div class="smcircle"></div>
+                    <div class="smcircle"></div>
+                    <div class="smcircle"></div>
+                  </div>
+                  <div class="bottom"><img src="./assets/hoverImage/firstsection1.png" alt=""></div>
+                </div>
+              </div>
               <img
                 src="https://abhishekjha.me/aeizei.7edf201c.png"
                 alt=""
@@ -312,6 +326,20 @@
               </div>
             </div>
             <div class="image-container" id="container-2">
+              <div class="hover-anim-section1">
+                <div class="first-row">
+                  <div class="circle"></div>
+                  <div class="button"><h1>Behance</h1></div>
+                </div>
+                <div class="second-row">
+                  <div class="top">
+                    <div class="smcircle"></div>
+                    <div class="smcircle"></div>
+                    <div class="smcircle"></div>
+                  </div>
+                  <div class="bottom"><img src="./assets/hoverImage/firstsection2.png" alt=""></div>
+                </div>
+              </div>
               <img
                 src="https://abhishekjha.me/display.835f9d62.png"
                 alt=""
@@ -331,7 +359,21 @@
             </div>
           </div>
           <div class="featured-projects2" id="fprojects2">
-            <div class="img-container2">
+            <div class="img-container2" id="con3">
+              <div class="hover-anim-section1">
+                <div class="first-row">
+                  <div class="circle"></div>
+                  <div class="button"><h1>Behance</h1></div>
+                </div>
+                <div class="second-row">
+                  <div class="top">
+                    <div class="smcircle"></div>
+                    <div class="smcircle"></div>
+                    <div class="smcircle"></div>
+                  </div>
+                  <div class="bottom"><img src="./assets/hoverImage/firstsection3.png" alt=""></div>
+                </div>
+              </div>
               <img
                 src="https://abhishekjha.me/quaive.6fc624fe.png"
                 alt=""
@@ -352,14 +394,34 @@
         </div>
         <div class="archives">
           <div class="achives-container">
-            <div class="images-side"></div>
+            <div class="images-side" id="archives-img-container"></div>
             <div class="links-side">
               <h5>Archives</h5>
-              <a href="#">North Of Zero</a>
-              <a href="#">Pulse</a>
-              <a href="#">PhotoFolio</a>
-              <a href="#">Stray</a>
-              <a href="#">ABUDZEO</a>
+              <a
+                href="#"
+                data-img="https://images.unsplash.com/photo-1611916813771-972015148368?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA=="
+                >North Of Zero</a
+              >
+              <a
+                href="#"
+                data-img="https://images.unsplash.com/photo-1532288922150-c04819be02b4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                >Pulse</a
+              >
+              <a
+                href="#"
+                data-img="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                >PhotoFolio</a
+              >
+              <a
+                href="#"
+                data-img="https://images.unsplash.com/photo-1598557825158-4358bc557f6c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                >Stray</a
+              >
+              <a
+                href="#"
+                data-img="https://images.unsplash.com/photo-1719420062178-8675f842252a?q=80&w=1822&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                >ABUDZEO</a
+              >
             </div>
           </div>
 
@@ -504,15 +566,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="script.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const scroll = new LocomotiveScroll({
-          el: document.querySelector("#main"), // Replace with your container ID or class
-          smooth: true,
-          // Other options as needed
-        });
-      });
-    </script>
   </body>
 </html>
