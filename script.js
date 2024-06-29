@@ -163,7 +163,6 @@ containers.forEach((container) => {
   });
 });
 
-// Define hoverAnim outside of container3 event listeners
 const hoverAnim3 = container3.querySelector(".hover-anim-section1");
 
 container3.addEventListener("mouseenter", (e) => {
